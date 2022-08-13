@@ -5,7 +5,7 @@ export default class App extends LightningElement {
 SubButtonClicked(){
   this.cNumber--;
 }
-ResetButtonClicked(){
+ResetButtonClicked(){ 
   this.cNumber =0;
 }
 

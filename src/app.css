@@ -1,12 +1,10 @@
 
 .myHeader {
-    background-color: #4e012488;
+   background-color: #3c1402d2;
     text-align: center;
     font-weight:bolder;
     font-size: .8cm;
-    color:#ffffff88;
-    
-    
+    color:#ecececf7; 
 }
 
 .myNum{
@@ -21,4 +19,7 @@
            left: 30%;
 }
 
+:host {
+    --sds-c-card-color-background: #f0a715;
+}
 
